@@ -173,7 +173,7 @@ regions.push(WV);
  var DC1_1_ = rsr.path("M513.5,171.7l-0.7-1l-0.6-0.5l0.7-1l1.4,0.9L513.5,171.7z").attr({id: 'DC1_1_',class: 'st0',parent: 'group_a','stroke-width': '0','stroke-opacity': '1','fill': '#000000'}).data('id', 'DC1_1_');
  var DC2_1_ = rsr.circle(513, 170, 3).attr({id: 'DC2_1_',class: 'st1',parent: 'group_a','stroke-width': '0','stroke-opacity': '1','fill': '#000000'}).data('id', 'DC2_1_'); DC_1_.attr({'id': 'DC_1_','parent': 'group_a','name': 'DC_1_'});
 
- var rsrGroups = [group_a,outlines_1_,DC_1_]; group_a.push( frames_1_ ); outlines_1_.push( AK_1_ , HI_1_ , AL_1_ , AR_1_ , AZ_1_ , CA_1_ , CO_1_ , CT_1_ , DE_1_ , FL_1_ , GA_1_ , IA_1_ , ID_1_ , IL_1_ , IN_1_ , KS_1_ , KY_1_ , LA_1_ , MA_1_ , MD_1_ , ME_1_ , MI_1_ , MN_1_ , MO_1_ , MS_1_ , MT_1_ , NC_1_ , ND_1_ , NE_1_ , NH_1_ , NJ_1_ , NM_1_ , NV_1_ , NY_1_ , OH_1_ , OK_1_ , OR_1_ , PA_1_ , RI_1_ , SC_1_ , SD_1_ , TN_1_ , TX_1_ , UT_1_ , VA_1_ , VT_1_ , WA_1_ , WI_1_ , WV_1_ , WY_1_ ); DC_1_.push( DC1_1_ , DC2_1_ );
+ //var rsrGroups = [group_a,outlines_1_,DC_1_]; group_a.push( frames_1_ ); outlines_1_.push( AK_1_ , HI_1_ , AL_1_ , AR_1_ , AZ_1_ , CA_1_ , CO_1_ , CT_1_ , DE_1_ , FL_1_ , GA_1_ , IA_1_ , ID_1_ , IL_1_ , IN_1_ , KS_1_ , KY_1_ , LA_1_ , MA_1_ , MD_1_ , ME_1_ , MI_1_ , MN_1_ , MO_1_ , MS_1_ , MT_1_ , NC_1_ , ND_1_ , NE_1_ , NH_1_ , NJ_1_ , NM_1_ , NV_1_ , NY_1_ , OH_1_ , OK_1_ , OR_1_ , PA_1_ , RI_1_ , SC_1_ , SD_1_ , TN_1_ , TX_1_ , UT_1_ , VA_1_ , VT_1_ , WA_1_ , WI_1_ , WV_1_ , WY_1_ ); DC_1_.push( DC1_1_ , DC2_1_ );
 
  //STATEMENTS
 
