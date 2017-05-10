@@ -1,0 +1,40 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 93.75%;
+}
+
+.infobox {
+	width: 400px;
+	height: auto;
+	padding-top: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	position: absolute;
+
+	background-color: #EEE;
+  box-shadow: 4px 4px 10px 4px rgba(0, 0, 0, 0.2);
+
+}
+.infobox__close {
+	width: 22px;
+	height: 24px;
+	padding: 5px;
+	font-size: 1em;
+	line-height: 0.9333333333em;
+	color: black;
+
+	position: absolute;
+	top: 4px;
+	right: 4px;
+	text-decoration: none;
+	display: block;
+	-webkit-border-radius: 10px;
+	   -moz-border-radius: 10px;
+			border-radius: 10px;
+	border: solid 1px black;
+}
