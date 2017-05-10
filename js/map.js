@@ -35,7 +35,8 @@ regions.push(AZ);
 var CA = rsr.path("M89.8,254.1l-12.3-1.7l-6.2-0.9l-0.3-1.1v-5.9l-0.2-2l-1.6-2.6l-0.5-1.4l-2.4-2.6l-1.8-2.9 l-1.7-0.1l-2-0.5l-0.2-0.6l0.9-0.4l-0.4-2l-0.9-1.3l-3-0.5l-2.4-1.3l-0.7-1.4l-1.6-3l-1.8-1.9h-1.8l-2.4-1.3l-2.8-1.1l-2.6-0.3 l-1.5-1.7l0.3-1.2l1.1-4.4l0.5-1.2v-1.5l-1-0.6l-0.3-1.8l-0.9-1.6l-2.1-3.6l-0.8-1.9l-0.9-2.9l-1-3.3l-2-2.7l-0.3-1.8l0.5-2.4h0.7 l1.3-1l0.7-2.2l-0.6-1.7l-1.7-0.3l-1.2-1.6l-1.3-2.3l-0.1-5.1l0.4-1.2l0.4-1.4l0.3-1.5l-3.6-3.9v-1.3l0.2-0.3l0.2-2l-0.8-2.5 l-1.4-3l-1.7-2.8l-1.1-2.4l0.6-2.3l0.4-3.6l1.1-1.9l0.2-4.1l-0.7-2.2l-1-2.6l-1.7-2.6l0.5-2l0.9-2.6l1.1-0.5l0.2-0.7l1.9-1.6 l3.2-7.4l0.1-4.6l1.1-3.1l24.1,7.4l16,4.1l-5,19.5l-5.4,20.7l7.9,12L95,208.2l10.7,16.3l-0.2,1.9l1.7,3.2l0.7,3.4l0.6,0.9l0.4,0.4 l-0.1,0.9l-0.9,0.6l-2.1,1l-1.2,1.3l-1.1,2.4l-0.3,2.9l-1.6,1.6l-1.4,0.7l-0.1,3.9l-0.4,1.2l0.6,1.1l1.9,0.2l-0.2,1l-0.9,1.2 l-2.4,0.4L89.8,254.1z M43.7,223.6l0.8,0.9l-0.1,0.8l-2-0.1l-0.4-0.7l-0.4-0.9L43.7,223.6z M44.9,223.6l0.7-0.4l2.2,1.3l1.9,0.7 l-0.6,0.4l-2.8-0.1l-1-1L44.9,223.6z M57.8,236l1.1,1.4l0.5,0.6l0.9,0.4l0.4-0.9l-0.6-1.1l-1.7-1.2l-0.7,0.1L57.8,236L57.8,236z M56.9,241.4l1.1,2l0.7,1.2l-0.9,0.1L57,244c0,0-0.4-0.9-0.4-1.2c0-0.2,0-1.4,0-1.4H56.9z").attr({id: 'CA',class: 'state',parent: 'group_a','stroke-width': '0','stroke-opacity': '1','fill': '#000000'}).data('id', 'CA');
 regions.push(CA);
 
-var CO = rsr.path("M250.4,160.3l-22.5-2.2l-49.4-5.4l-1.4,13.8l-4.4,31.4l-1.2,8.5l21.2,2.4l23.4,2.7l21.7,1.9 l8.9,0.4L250.4,160.3z").attr({id: 'CO',class: 'state',parent: 'group_a','stroke-width': '0','stroke-opacity': '1','fill': '#000000'}).data({'id': 'CO', 'region': 'Colorado', 'date': 'June 2015','post': 'Boulder- I attended Panoramic Flutist in Colorado this summer. Hosted by CU flute professor Christina Jennings, the four day flute workshop was filled with solo and orchestral masterclasses as well as focus on physical and mental components of performing.','date2': '', 'post2': ''});
+var CO = rsr.path("M250.4,160.3l-22.5-2.2l-49.4-5.4l-1.4,13.8l-4.4,31.4l-1.2,8.5l21.2,2.4l23.4,2.7l21.7,1.9 l8.9,0.4L250.4,160.3z");
+CO.attr({id: 'CO',class: 'state',parent: 'group_a','stroke-width': '0','stroke-opacity': '1','fill': '#000000'}).data({'id': 'CO', 'region': 'Colorado', 'date': 'June 2015','post': 'Boulder- I attended Panoramic Flutist in Colorado this summer. Hosted by CU flute professor Christina Jennings, the four day flute workshop was filled with solo and orchestral masterclasses as well as focus on physical and mental components of performing.','date2': '', 'post2': ''});
 regionsVisited.push(CO);
 
 
@@ -180,49 +181,46 @@ regions.push(WV);
  // visited states are filled in with purple
 for (var i = 0; i < regionsVisited.length; i++) {
 
-	// visited states are filled in with purple
     if (regionsVisited[i].data('id') == 'FL') {
-    	regionsVisited[i].node.setAttribute('fill', 'purple');
-
-
+    	regionsVisited[i].node.setAttribute('fill', '#F54A60');
     }
     if (regionsVisited[i].data('id') == 'NY') {
-      regionsVisited[i].node.setAttribute('fill', 'purple');
+      regionsVisited[i].node.setAttribute('fill', '#F54A60');
   //  $("#picture").attr('src', 'img/um.jpg');
     }
     if (regionsVisited[i].data('id') == 'MI') {
-      regionsVisited[i].node.setAttribute('fill', 'purple');
-
+      regionsVisited[i].node.setAttribute('fill', '#F54A60');
     }
     if (regionsVisited[i].data('id') == 'CO') {
-      regionsVisited[i].node.setAttribute('fill', 'purple');
+      regionsVisited[i].node.setAttribute('fill', '#F54A60');
     }
     if (regionsVisited[i].data('id') == 'NC') {
-      regionsVisited[i].node.setAttribute('fill', 'purple');
+      regionsVisited[i].node.setAttribute('fill', '#F54A60');
     }
     if (regionsVisited[i].data('id') == 'PA') {
-      regionsVisited[i].node.setAttribute('fill', 'purple');
+      regionsVisited[i].node.setAttribute('fill', '#F54A60');
     }
     if (regionsVisited[i].data('id') == 'MA') {
-      regionsVisited[i].node.setAttribute('fill', 'purple');
+      regionsVisited[i].node.setAttribute('fill', '#F54A60');
     }
     if (regionsVisited[i].data('id') == 'MO') {
-      regionsVisited[i].node.setAttribute('fill', 'purple');
+      regionsVisited[i].node.setAttribute('fill', '#F54A60');
     }
     if (regionsVisited[i].data('id') == 'IL') {
-      regionsVisited[i].node.setAttribute('fill', 'purple');
+      regionsVisited[i].node.setAttribute('fill', '#F54A60');
     }
 
     // hover
     regionsVisited[i].mouseover(function(e){
 		this.node.style.opacity = 0.7;
 	});
-
+    // no hover
 	regionsVisited[i].mouseout(function(e){
 		this.node.style.opacity = 1;
 
 	});
 
+    // mouse press
 	regionsVisited[i].mousedown(function(e){
 
 		var posx;
@@ -234,11 +232,11 @@ for (var i = 0; i < regionsVisited.length; i++) {
 		$infobox.css({
 			'top': '250px',
 			'left': '25px'
-		})
+		});
 
-    ;
-
-    //
+  /*  if (regionsVisited[i].data('id'). == 'FL') {
+        image.src = document.$ImgFL.src;
+    } */
 
 		$infobox.find('.infobox__title').text(this.data('region'));
     $infobox.find('.infobox__date').text(this.data('date'));
@@ -261,3 +259,14 @@ for (var i = 0; i < regionsVisited.length; i++) {
 
 
 }
+
+//PICTURES
+/*function PreloadImages() {
+           var imgFL = new Image();
+           imgFL.src = "img/um.jpg";
+           document.$ImgFL = imgFL;
+
+       }
+
+       function changeImg {
+           }*/
