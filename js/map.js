@@ -227,6 +227,7 @@ for (var i = 0; i < regionsVisited.length; i++) {
 
 		var posx;
 		var posy;
+    $infobox.show();
 
 		console.log(posx, posy);
 
